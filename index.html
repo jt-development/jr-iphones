@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JR iPhones</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="script.js"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+	<link rel="stylesheet" type="text/css" href="bulma.min.css">
+</head>
+<body>
+
+<div id="logo">
+  <img id="imglogo" src="https://instagram.fjdo2-1.fna.fbcdn.net/v/t51.2885-19/s150x150/47365282_496072410797208_6797477012316356608_n.jpg?_nc_ht=instagram.fjdo2-1.fna.fbcdn.net&_nc_ohc=HjBoFiNWW9MAX-66aC3&oh=7c535cc505994d7a81e8d2d6cd8883a6&oe=5EBF45D5">
+</div>
+
+<style type="text/css">
+	#imglogo{
+		border-radius: 50%;
+	}
+	#logo{
+		padding-top: 20px;
+    	display: flex;
+    	flex-direction: row;
+    	justify-content: center;
+    	align-items: center;
+	}
+</style>
+
+
+<br>
+	<div class="aviso">
+	<div class="notification">
+  		<button class="delete"></button>
+  		Digite um valor e selecione o número de parcelas a baixo.
+	</div>
+	</div>
+<br>
+	<div class="field">
+	  <div class="control">
+	    <input class="input" id="valor" type="number" placeholder="R$">
+	  </div>
+	</div>
+	<div class="select is-fullwidth">
+	 <select id="parcelas">
+		  <option value="1">1x</option>
+		  <option value="2">2x</option>
+		  <option value="3">3x</option>
+		  <option value="4">4x</option>
+		  <option value="5">5x</option>
+		  <option value="6">6x</option>
+		  <option value="7">7x</option>
+		  <option value="8">8x</option>
+		  <option value="9">9x</option>
+		  <option value="10">10x</option>
+		  <option value="11">11x</option>
+		  <option value="12">12x</option>
+		</select>
+	</div>
+
+	<div>
+		<br>
+		<button class="button is-fullwidth" onclick="calculaJuros()">Calcular</button>
+	</div>
+
+	<footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+      <strong>JR iPhones</strong> by <a href="https://jgthms.com">...</a>
+    </p>
+  </div>
+</footer>
+
+
+	
+	<!--
+	<div id="aviso"></div>
+	<div id="container">
+		<label>R$: </label> <input  type="number" name="valor" autofocus placeholder="Ex: 1000" id="valor"> <br>
+		<label for="parcelas">Parcelamento:</label>
+		<select id="parcelas">
+		  <option value="1">1x</option>
+		  <option value="2">2x</option>
+		  <option value="3">3x</option>
+		  <option value="4">4x</option>
+		  <option value="5">5x</option>
+		  <option value="6">6x</option>
+		  <option value="7">7x</option>
+		  <option value="8">8x</option>
+		  <option value="9">9x</option>
+		  <option value="10">10x</option>
+		  <option value="11">11x</option>
+		  <option value="12">12x</option>
+		</select>
+		<br>
+		<button onclick="calculaJuros()">Calcular</button>
+	</div>
+-->
+</body>
+</html>
