@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<title>JR iPhones</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="script.js"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+	<link rel="stylesheet" type="text/css" href="bulma.min.css">
+
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-163851959-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'UA-163851959-1');
+	</script>
+
+</head>
+
+<body>
+
+	<style type="text/css">
+	[class~=input],[class~=page-main],[class~=wrapper],select,[class~=button]{display:flex;}[class~=wrapper],[class~=page-main]{flex-direction:column;}body{background-color:#fff;}[class~=wrapper]{min-height:100vh;}body{background-image:linear-gradient(90deg,transparent 56px,#abced4 56px,#abced4 58px,transparent 58px),linear-gradient(#eee .1em,transparent .1em);}[class~=wrapper]>*{padding-left:15pt;}[class~=wrapper]>*{padding-bottom:15pt;}body{background-size:100% 1.2em;}[class~=wrapper]>*{padding-right:15pt;}[class~=wrapper]>*{padding-top:15pt;}[class~=page-main]{flex-grow:1;}select,[class~=input],[class~=page-main],[class~=button]{justify-content:center;}select,[class~=input],[class~=button],[class~=page-main]{align-items:center;}*,[class~=button],[class~=input],select{margin-left:0;}*{margin-bottom:0;}select,[class~=button],[class~=input]{margin-bottom:.625pc;}[class~=button],[class~=input],select,*{margin-right:0;}[class~=page-main]{min-height:3.125in;}select,[class~=button],[class~=input]{margin-top:7.5pt;}[class~=notification]{max-width:350px !important;}[class~=notification]{min-width:262.5pt !important;}select,[class~=input],[class~=button]{height:.520833333in;}*{margin-top:0;}*{padding-left:0;}*{padding-bottom:0;}[class~=input],[class~=button],select{width:262.5pt;}header{align-self:center;}[class~=page-main] div{max-width:500px;}footer{text-align:center;}img{margin-bottom:-1.875pc;}*{padding-right:0;}img{height:12.5pc;}img{border-radius:50%;}*{padding-top:0;}*{box-sizing:border-box;}*{font-size:large;}@media screen and (max-width: 768px){select,.button,[class~=input]{width:3.125in;}[class~=notification]{max-width:3.125in !important;}[class~=notification]{min-width:300px !important;}}
+	</style>
+
+
+	<div class="wrapper">
+		<header>
+			<img src="logo.jpeg">
+		</header>
+
+		<main class="page-main">
+
+			<div class="aviso">
+				<div class="notification">
+					<button class="delete"></button>
+					Digite um valor e selecione o número de parcelas a baixo.
+				</div>
+			</div>
+
+				<div class="control">
+					<input class="input" id="valor" name="valor" type="tel" size="12" autocomplete="off" placeholder="R$"
+						onKeyUp="mascaraMoeda(this, event)" value="">
+				</div>
+				<div class="control">
+				<select class="input" id="parcelas">
+					<option value="2">2x</option>
+					<option value="3">3x</option>
+					<option value="4">4x</option>
+					<option value="5">5x</option>
+					<option value="6">6x</option>
+					<option value="7">7x</option>
+					<option value="8">8x</option>
+					<option value="9">9x</option>
+					<option value="10">10x</option>
+					<option value="11">11x</option>
+					<option value="12">12x</option>
+					<option value="13">13x</option>
+					<option value="14">14x</option>
+					<option value="15">15x</option>
+					<option value="16">16x</option>
+					<option value="17">17x</option>
+					<option value="18">18x</option>
+					<option value="19">19x</option>
+					<option value="20">20x</option>
+					<option value="21">21x</option>
+				</select>
+			</div>
+
+				<button class="button is-success" onclick="calculaJuros()">Calcular</button>
+		</main>
+
+		<footer class="page-footer">
+			<strong>
+				<a href="https://www.instagram.com/creative83_/">Creative83</a>
+				© 2021</strong>
+		</footer>
+	</div>
+
+	<script>
+		String.prototype.reverse = function () {
+			return this.split('').reverse().join('');
+		};
+
+		function mascaraMoeda(campo, evento) {
+			var tecla = (!evento) ? window.event.keyCode : evento.which;
+			var valor = campo.value.replace(/[^\d]+/gi, '').reverse();
+			var resultado = "";
+			var mascara = "##.###.###,##".reverse();
+			for (var x = 0, y = 0; x < mascara.length && y < valor.length;) {
+				if (mascara.charAt(x) != '#') {
+					resultado += mascara.charAt(x);
+					x++;
+				} else {
+					resultado += valor.charAt(y);
+					y++;
+					x++;
+				}
+			}
+			campo.value = resultado.reverse();
+		}
+	</script>
+</body>
+
+</html>
