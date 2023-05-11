@@ -1,1 +1,60 @@
-function _0xa9ea(){const _0x585018=['querySelector','toLocaleString','click','href','toFixed','value','O\x20parcelamento\x20em\x2021x\x20é\x20válido\x20apenas\x20para\x20cartões\x20Visa\x20ou\x20\x0a\x09\x09Master,\x20os\x20demais\x20são\x20válidos\x20em\x20até\x2018x\x20com\x20restrição\x20para\x20bancos\x20digitais\x20Ex.:\x20Digio,\x20Pag,\x20Inter...\x20','#enunciado','remove','3060546LFTwgY','querySelectorAll','\x0a\x09\x09<div\x20class=\x22notification\x20is-success\x22>\x0a\x09\x09<button\x20class=\x22delete\x22></button></button>\x20\x0a\x09\x09','location','parentNode','innerHTML','26485bgziKF','</p>\x0a\x09\x09</div>\x0a\x09\x09<div\x20class=\x22notification\x20is-success\x22>\x0a\x09\x09<button\x20class=\x22delete\x22></button></button>\x20\x0a\x09\x09','currency','\x20Vezes\x20de\x20','forEach','1168881nBknUZ','709896PIZQxb','12tfucVv','10778796MmKzgg','62248ADiPEa','replace','\x0a\x09\x09<div\x20class=\x22notification\x20is-info\x22\x20id=\x22enunciado\x22\x20>\x0a\x09\x09<button\x20class=\x22delete\x22></button></button>\x0a\x09\x09<strong\x20>Lembrete</strong>\x20\x0a\x09\x09<p>','<div\x20class=\x22notification\x20is-danger\x22>\x0a\x09\x09\x09<button\x20class=\x22delete\x22></button>\x20É\x20necessário\x20informar\x20um\x20valor\x20antes\x20de\x20calcular</div>','.notification','844EdGhGi','#parcelas','\x0a\x09\x09</div>','.aviso','1192893RvnEzw'];_0xa9ea=function(){return _0x585018;};return _0xa9ea();}(function(_0x3689b9,_0xbc03f4){const _0xa0eff3=_0x1647,_0x2959b2=_0x3689b9();while(!![]){try{const _0x18336a=-parseInt(_0xa0eff3(0x1b4))/0x1+parseInt(_0xa0eff3(0x1ca))/0x2*(parseInt(_0xa0eff3(0x1cb))/0x3)+parseInt(_0xa0eff3(0x1b0))/0x4*(parseInt(_0xa0eff3(0x1c4))/0x5)+parseInt(_0xa0eff3(0x1be))/0x6+parseInt(_0xa0eff3(0x1c9))/0x7+-parseInt(_0xa0eff3(0x1cd))/0x8+-parseInt(_0xa0eff3(0x1cc))/0x9;if(_0x18336a===_0xbc03f4)break;else _0x2959b2['push'](_0x2959b2['shift']());}catch(_0x103b4e){_0x2959b2['push'](_0x2959b2['shift']());}}}(_0xa9ea,0xc7457),document['addEventListener']('DOMContentLoaded',()=>{const _0x5c7791=_0x1647;(document[_0x5c7791(0x1bf)](_0x5c7791(0x1b3))||[])[_0x5c7791(0x1c8)](_0x4d358b=>{const _0x5ac208=_0x5c7791;$notification=_0x4d358b[_0x5ac208(0x1c2)],_0x4d358b['addEventListener'](_0x5ac208(0x1b7),()=>{const _0x2c1653=_0x5ac208;document['querySelectorAll'](_0x2c1653(0x1d1))[0x0][_0x2c1653(0x1bd)]();});});}));function _0x1647(_0x5af512,_0x22d6ec){const _0xa9eab=_0xa9ea();return _0x1647=function(_0x164729,_0x150939){_0x164729=_0x164729-0x1b0;let _0x1743a0=_0xa9eab[_0x164729];return _0x1743a0;},_0x1647(_0x5af512,_0x22d6ec);}function calculaJuros(){const _0x3f4028=_0x1647;let _0x1a73ee=[0x4,4.8,5.6,6.4,7.2,6.9,7.7,8.5,9.2,11.1,11.09],_0x53072e=document[_0x3f4028(0x1b5)]('#valor')[_0x3f4028(0x1ba)];_0x53072e=_0x53072e[_0x3f4028(0x1ce)]('.',''),_0x53072e=_0x53072e[_0x3f4028(0x1ce)](',','.'),_0x53072e=parseFloat(_0x53072e);const _0x32a7be=parseInt(document[_0x3f4028(0x1b5)](_0x3f4028(0x1b1))[_0x3f4028(0x1ba)]);if(!_0x53072e)document['querySelector'](_0x3f4028(0x1b3))[_0x3f4028(0x1c3)]=_0x3f4028(0x1d0);else{let _0x33c234=_0x1a73ee[_0x32a7be-0x2]/0x64,_0x391091=(_0x53072e*_0x33c234+_0x53072e)/_0x32a7be;_0x391091=_0x391091[_0x3f4028(0x1b9)](0x2),_0x391091=Number(_0x391091)[_0x3f4028(0x1b6)]('pt-br',{'style':_0x3f4028(0x1c6),'currency':'BRL'});let _0x55f5c0=document[_0x3f4028(0x1b5)](_0x3f4028(0x1b3));const _0x2e58bc=_0x3f4028(0x1bb);let _0x3a7516=_0x3f4028(0x1c0)+_0x32a7be+_0x3f4028(0x1c7)+_0x391091+_0x3f4028(0x1b2),_0x58fd2e=_0x3f4028(0x1cf)+_0x2e58bc+_0x3f4028(0x1c5)+_0x32a7be+_0x3f4028(0x1c7)+_0x391091+_0x3f4028(0x1b2);_0x55f5c0['innerHTML']=_0x32a7be>0xc?_0x58fd2e:_0x3a7516,window[_0x3f4028(0x1c1)][_0x3f4028(0x1b8)]=_0x3f4028(0x1bc);}}
+document.addEventListener('DOMContentLoaded', () => {
+	(document.querySelectorAll('.aviso') || []).forEach(($delete) => {
+		$notification = $delete.parentNode;
+
+		$delete.addEventListener('click', () => {
+			document.querySelectorAll('.notification')[0].remove();
+		});
+	});
+});
+
+
+function calculaJuros() {
+	let taxasJuros = [4, 4.8, 5.6, 6.4, 7.2, 6.9, 7.7, 8.5, 9.2, 11.1, 11.09];
+	
+	let valorFinanciado = document.querySelector('#valor').value;
+	valorFinanciado = valorFinanciado.replace('.', '')
+	valorFinanciado = valorFinanciado.replace(',', '.')
+	valorFinanciado = parseFloat(valorFinanciado)
+
+	const parcelas = parseInt(document.querySelector('#parcelas').value);
+
+	if (!valorFinanciado) {
+		document.querySelector('.aviso').innerHTML = `<div class="notification is-danger">
+			<button class="delete"></button> É necessário informar um valor antes de calcular</div>`;
+	} else {
+
+		let juros = taxasJuros[parcelas - 2] / 100
+		let valorDaParcela = ((valorFinanciado * juros) + valorFinanciado) / parcelas;
+		valorDaParcela = valorDaParcela.toFixed(2);
+		valorDaParcela = Number(valorDaParcela).toLocaleString('pt-br',{style: 'currency', currency: 'BRL'});
+		
+		
+		let aviso = document.querySelector('.aviso');
+
+		const enunciado = `O parcelamento em 21x é válido apenas para cartões Visa ou 
+		Master, os demais são válidos em até 18x com restrição para bancos digitais Ex.: Digio, Pag, Inter... `;
+
+		let msg1 = `
+		<div class="notification is-success">
+		<button class="delete"></button></button> 
+		${parcelas} Vezes de ${valorDaParcela}
+		</div>`;
+
+		let msg2 = `
+		<div class="notification is-info" id="enunciado" >
+		<button class="delete"></button></button>
+		<strong >Lembrete</strong> 
+		<p>${enunciado}</p>
+		</div>
+		<div class="notification is-success">
+		<button class="delete"></button></button> 
+		${parcelas} Vezes de ${valorDaParcela}
+		</div>`;
+		
+		aviso.innerHTML = parcelas > 12 ? msg2 : msg1;
+		
+		window.location.href = '#enunciado'
+	}
+
+}
